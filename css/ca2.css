@@ -1,0 +1,368 @@
+body{
+  font-family: "Hiragino Kaku Gothic Pro" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+a:link {
+   color:#fff;
+    text-decoration:none;
+ }
+a:visited {
+  color:#fff;
+  text-decoration:none;
+}
+a:hover {
+   color:#82be28;
+   text-decoration:none;
+  }
+
+.midori a:link {
+     color:#000;
+      text-decoration:none;
+   }
+.midori a:visited {
+    color:#000;
+    text-decoration:none;
+  }
+.midori a:hover {
+   color:#82be28;
+   text-decoration:none;
+  }
+
+
+
+.fixed{
+  position: fixed;
+  top: 0px;
+	left: 0px;
+  z-index: 9999;
+}
+
+
+
+  .nav6{
+    height: 88px;
+    width: 100%;
+    background-color: #ffffff;
+
+
+  }
+
+  #a1{
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    margin: 0 auto;
+    height: 50px;
+    align-items: center;
+  }
+
+  #a1 h1{
+    width: 206px;
+
+  }
+  .nav6 ul{
+    display: flex;
+    justify-content: space-between;
+    width: 770px;
+
+  }
+
+
+
+  .kensaku{
+      background-color:#eeeeee;
+      width:100%;
+      height:38px;
+
+  }
+  .kensaku .inner{
+    text-align: right;
+    padding-top: 4px;
+
+  }
+
+
+
+.inner{
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.inner p{
+  margin-top: 6px;
+  margin-right: 384px;
+}
+
+
+
+
+
+.inner a:link {
+     color:#000;
+      text-decoration:none;
+   }
+.inner a:visited {
+    color:#000;
+    text-decoration:none;
+  }
+.inner a:hover {
+   color:#82be28;
+   text-decoration:none;
+  }
+
+
+
+#top{
+  background: url("../img/top.png") no-repeat ;
+  height: 488px;
+  width: 100%;
+  margin-top: 88px;
+  background-size: cover;
+
+}
+
+
+.topul{
+padding-top: 60px;
+}
+.topli{
+margin:30px;
+padding-left:120px;
+
+}
+
+
+.inner4{
+  display: flex;
+}
+
+.app{
+  margin-top: 40px;
+  padding-left: 136px;
+  margin-bottom: 40px;
+}
+.appstore{
+  display: flex;
+  padding-left: 116px;
+}
+
+
+
+
+.sentence{
+  width: 770px;
+  padding-left: 50px;
+
+}
+.sentenceflat{
+  display: flex;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.sentence h2{
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 0.1em;
+
+}
+
+.sentence h3{
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 6px;
+}
+
+.sentence h4{
+  font-size: 16px;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+}
+.sentence p{
+  font-size: 16px;
+  letter-spacing: 0.1em;
+
+}
+
+.week a:hover{
+  color:#82be28;
+  text-decoration:none;
+}
+.week a:visited{
+  color:#000;
+  text-decoration:none;
+}
+.hovweek {
+  color:#000;
+  text-decoration:none;
+ }
+
+
+
+
+.aka{
+  color: red;
+}
+
+
+.rankingul{
+padding-top: -60px;
+}
+.rankingli{
+  color: #83bc2d;
+margin:30px;
+padding-left:400px;
+
+}
+
+
+.innerflat{
+  display: flex;
+  margin-left: 420px;
+  margin-top: -60px;
+}
+
+.taiou h2{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+
+}
+
+.taiou{
+    padding-left: 80px;
+}
+
+#kutikomi{
+  margin-top: 100px;
+    width: 680px;
+    margin-left: 100px;
+}
+#kutikomi h2{
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 20px;
+  letter-spacing: 0.1em;
+}
+
+#kutikomi h3{
+  margin-left: 20px;
+  letter-spacing: 0.1em;
+}
+
+#kutikomi p{
+  margin-left: 524px;
+}
+
+.kutikomiflat{
+  display: flex;
+}
+
+
+
+
+.kutikomi1{
+  margin-bottom: 20px;
+}
+
+
+#kanren{
+  width: 306px;
+}
+
+
+
+.under{
+  display: flex;
+}
+
+#kanren{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+#kanren h2{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+
+}
+#kanren3{
+
+}
+
+
+.kanren1{
+  margin-bottom: 20px;
+}
+
+
+
+
+footer{
+  clear: both;
+  background-color: #000000;
+  height: 354px;
+　
+}
+
+footer a:link,
+footer a:visited{
+  color:#FFF;text-decoration:none;
+}
+footer a:hover{
+  color:#82be28;text-decoration:none;
+}
+
+.footer{
+  width: 1280px;
+  margin: 0 auto;
+}
+
+footer ul{
+  width: 100%;
+  padding-top: 60px;
+  margin-bottom: 60px;
+  display: table;
+  table-layout: fixed;
+}
+
+.sns{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+    vertical-align: top;
+    font-size: 0;
+    line-height: 0;
+}
+.twitter{
+  margin-left: 100px;
+}
+
+.logo2{
+  width: 200px;
+display: block;
+margin: 0 auto;
+}
+
+footer li{
+  float: none;
+  display: table-cell;
+  text-align: center;
+color: #ffffff;
+font-size: 12px;
+letter-spacing: 0.1em;
+}
+
+footer p{
+  color: #ffffff;
+  font-size: 9px;
+  text-align: center;
+  margin: 20px 0;
+}

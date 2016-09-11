@@ -1,0 +1,568 @@
+/*全体のフォント指定 ------------------- */
+body{
+  font-family: "Hiragino Kaku Gothic Pro" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.wrapvideo{
+  width: 100%;
+  height: 724px;
+  overflow: hidden;
+  background-color: #000;
+
+}
+
+
+/*.fixed{
+  position: fixed;
+  top: 0px;
+	left: 0px;
+  z-index: 9999;
+}*/
+
+.content{
+  width: 100%;
+}
+
+.content video{
+  width: 100%;
+}
+
+.nav6{
+  height: 78px;
+  width: 100%;
+  background-color: #fff;
+  /*opacity: 0.9;*/
+
+
+}
+
+#a1{
+  display: flex;
+  justify-content: space-between;
+  width: 1080px;
+  margin: -4px auto;
+  height: 76px;
+  align-items: center;
+}
+
+#a1 h1{
+  width: 140px;
+
+}
+.nav6 ul{
+  display: flex;
+  justify-content: space-between;
+  width: 660px;
+
+}
+
+.kensaku{
+    background-color:#eeeeee;
+    /*opacity: 0.9;*/
+    width:100%;
+    height:38px;
+
+}
+.kensaku .inner{
+  text-align: right;
+  padding-top: 4px;
+}
+
+.inner{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+
+
+/*サービス ------------------- */
+
+#services .inner{
+  text-align: center;
+  position: relative;
+}
+
+
+.hidari{
+  position: absolute;
+  top: 180px;
+  left: -60px;
+}
+
+.migi{
+  position: absolute;
+  top: 180px;
+  right: -60px;
+}
+
+.maru{
+margin-top: -30px;
+}
+
+
+.card4{
+  width: 1008px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+/*.card3 ul li{
+  display: flex;
+  justify-content: space-between;
+}*/
+
+.sentence{
+  top: 240px;
+  left: 80px;
+  width: 260px;
+  text-align: -webkit-center;
+
+}
+
+#services{
+  width: 100%;
+  height: 412px;
+  background: url("../img/bg.png") no-repeat;
+  background-size: cover;
+
+}
+.serviceimg{
+  margin-bottom: 50px;
+}
+
+.service1{
+  width: 260px;
+  height: 346px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.service2{
+  width: 260px;
+  height: 346px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+
+
+}
+.service3{
+  width: 260px;
+  height: 346px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.service4{
+  width:260px;
+  height: 346px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+
+.btn{
+  width: 92px;
+  height: 26px;
+  border: #999 solid 1px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+
+.btn a{
+  color: #999;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+}
+
+.btn a:link{
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn a:hover{
+  color: #82be28;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.btn:hover{
+  border: #82be28 1px solid;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+
+
+#services p{
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+
+
+
+
+
+/*ランキング ------------------- */
+
+
+#ranking{
+  width: 1280px;
+  margin: 0 auto;
+  background-color: #fffffff;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.pickupinner{
+  cursor: pointer;
+  position: absolute;
+  width: 330px;
+  height: 366px;
+  background: url(../img/card1.png) no-repeat;
+
+}
+.pp2{
+  background: url(../img/card2.png) no-repeat;
+
+}
+.pp3{
+  background: url(../img/card3.png) no-repeat;
+
+}
+.pp4{
+  background: url(../img/card4.png) no-repeat;
+
+}
+
+.aka{
+  color: red;
+}
+
+.akaline{
+display: flex;
+
+
+}
+
+.inner2{
+  text-align: center;
+  position: relative;
+  background-color: #ffffff;
+  width: 306px;
+  height: 126px;
+  top: 238px;
+  left: 4%;
+
+
+}
+
+.label{
+width: 120px;
+height: 33px;
+/*opacity: 0.8;*/
+position: relative;
+left: 104px;
+top: 94px;
+background-color:#000000;
+
+}
+
+.label p{
+  color: #ffffff;
+  font-size:12px;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  text-align: center;
+  padding-top: 8px;
+  font-family: ameba sans;
+
+}
+/*.game{
+  background-color:#e8c831;
+}
+
+.movie{
+  background-color: #e4007f;
+
+}
+
+.community{
+  background-color: #e60012;
+
+}
+
+.etc{
+  background-color: #0000ff;
+}*/
+
+
+
+#ranking .inner{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#pickup{
+  width: 686px;
+}
+
+
+#ranking2 .inner2{
+  text-align: center;
+  position: relative;
+
+}
+
+
+
+
+
+#ranking h2
+{color: #000000;
+font-family: Ameba Sans;
+font-size: 22px;
+letter-spacing: 0.1em;
+margin-bottom: 20px;
+text-align: center;
+}
+#ranking2 h3{
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+#ranking2{
+  width: 346px;
+}
+
+
+li{
+margin:0px;
+padding:0px;
+
+}
+
+.pickupimg{
+  position: absolute;
+  left: 0;
+  top;0;
+
+}
+
+.sentence2{
+
+  text-align: center;
+  top: 34px;
+  position: relative;
+
+}
+
+.sentence2 h4{
+
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+}
+
+
+#grid {
+	width: 686px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.pickupinner{
+  width: 337px;
+  height: 393px;
+  position: relative;
+}
+
+
+#ranking{
+  display: flex;
+}
+
+.sentence3{
+  margin-top: 16px;
+  margin-left: 20px;
+  width: 176px;
+
+}
+
+
+.rankingflat{
+  display: flex;
+  margin-top: 10px}
+
+
+
+
+
+
+
+#ranking2 h4{
+  color: #c3a21d;
+  font-size: 10px;
+}
+
+.rankinglist{
+  width: 303px;
+  margin-left: 20px;
+}
+
+
+.rankingtittle{
+  margin-top: 20px;
+}
+
+.rankingtittle2{
+  margin-top: 20px;
+  margin-bottom: 44px;
+
+}
+.sen3{
+  margin-bottom: 26px;
+}
+
+#ranking2 a:link,
+#ranking2 a:visited{
+  color:#000;text-decoration:none;
+}
+#ranking2 a:hover{
+  color:#82be28;text-decoration:none;transition: 0.4s ;
+}
+
+
+
+.hovweek{
+  opacity: 0.4;
+
+}
+
+.hovweek a:hover{
+  opacity: 2.0;
+}
+
+
+
+
+/*.week a:link, a:hover{
+  color:#82be28;
+  text-decoration:none;
+}
+.week a:visited{
+  color:#000;
+  text-decoration:none;
+}
+.week a:active{
+  color:#000;
+  text-decoration:none;
+ }*/
+
+
+.week{
+  display: flex;
+  width: 182px;
+  background-color: #ffffff;
+  height: 28px;
+  justify-content: space-around;
+  margin: -10px auto 0;
+  font-family: ameba sans;
+  margin-bottom: 30px;
+}
+
+.more{
+  text-align: center;
+  margin-top: 14px;
+}
+
+.card5{
+  border: 1px #dddddd solid;
+  height: 738px;
+
+}
+
+#pickup h3{
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding-bottom: 5px;
+}
+
+
+
+/*フッタ ------------------- */
+
+footer{
+  background: url("../img/fotter.png") no-repeat;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+
+}
+footer a:link,
+footer a:visited{
+  color:#FFF;
+  text-decoration:none;
+}
+footer a:hover{
+  color:#82be28;
+  text-decoration:none;
+  transition: 0.4s ;
+}
+.footerhako{
+  width: 1080px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+
+}
+
+.footerlist{
+  width: 602px;
+}
+
+.footerlist ul{
+  display: flex;
+  justify-content: space-between;
+  line-height: 1;
+}
+
+footer p{
+  color: #ffffff;
+  font-size: 9px;
+  margin-top: 10px;
+
+}
+
+.sns{
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+
+
+
+}
